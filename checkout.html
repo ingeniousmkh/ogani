@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jQuery.UI.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Organi</title>
+</head>
+<body>
+    <!-- === header-top start here === -->
+    <section id="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 header-top-left">
+                    <ul>
+                        <li class="hello-contact">
+                            <a href="#">
+                                <i class="fa-solid fa-envelope"></i>
+                                hello@Ogani.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Free Shipping for all Order of $99
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 header-top-right">
+                    <ul>
+                        <li class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                        </li>
+                        <li class="languages">
+                            <img src="images/flag-usa.png" alt="flag_note_found">
+                            <span>English</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                            <ul class="languages-drop-down-menu">
+                                <li><a href="#">Bangla</a></li>
+                                <li><a href="#">Chinese</a></li>
+                                <li><a href="#">English</a></li>
+                                <li><a href="#">Hindi</a></li>
+                            </ul>
+                        </li>
+                        <li class="user-login">
+                            <a href="login.html">
+                                <i class="fa-solid fa-user"></i>
+                                <span>LogIn</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === header-top end here === -->
+
+    <!-- === menu start here === -->
+    <section id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header-logo">
+                        <img src="images/top_logo.png" alt="logo_not_found">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="menu-bar">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li class="pages">
+                                <a href="#">Pages</a>
+                                <ul class="pages-drop-down-menu">
+                                    <li><a href="shop-details.html">Shop Details.</a></li>
+                                    <li><a href="shopping-cart.html">Shopping Cart.</a></li>
+                                    <li><a href="checkout.html">Check Out.</a></li>
+                                    <li><a href="blog-details.html">Blog Details.</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="menu-cart">
+                        <li><a href="#">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>1</span>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fa-solid fa-shopping-bag"></i>
+                            <span>3</span>
+                        </a></li>
+                        <li><a href="#">
+                            Items:
+                            <span>$150.00</span>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === menu end here === -->
+    
+
+    <!-- === hemburger menu btn start here -->
+    <button class="navbar-toggler">
+        <span class="navbar-toggler-icon"> <i class="fa-solid fa-bars"></i> </span>
+    </button>
+    <!-- === hemburger menu btn end here == -->
+
+    <div class="menu-overlay"></div>
+
+    <!-- === responsive menu start here === -->
+    <section id="side-menu">
+        <div class="side-menu-logo">
+            <img src="images/top_logo.png" alt="logo_not_found">
+        </div>
+        <ul class="menu-cart side-menu-cart">
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-heart"></i>
+                    <span>1</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-shopping-bag"></i>
+                    <span>3</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">Items:<span>$150.00</span></a>
+            </li>
+        </ul>
+        <ul class="login-lang">
+            <li class="languages">
+                <img src="images/flag-usa.png" alt="flag_note_found">
+                <span>English</span>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="languages-drop-down-menu">
+                    <li><a href="#">Bangla</a></li>
+                    <li><a href="#">Chinese</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Hindi</a></li>
+                </ul>
+            </li>
+            <li class="user-login">
+                <a href="login.html">
+                    <i class="fa-solid fa-user"></i>
+                    <span>LogIn</span>
+                </a>
+            </li>
+        </ul>
+        <div class="side-menu-bar">
+            <div class="side-menu-btn" data-bs-toggle="collapse" data-bs-target="#collapsed-menu" aria-expanded="false" aria-controls="collapsed-menu">
+                <i class="fa-solid fa-bars"></i>
+                <span>Menu</span>
+            </div>
+            <div class="menu-list collapse" id="collapsed-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li class="pages">
+                        <a href="#" data-bs-toggle="collapse" data-bs-target="#collapsed-pages" aria-expanded="false" aria-controls="collapsed-pages" >
+                            Pages
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                    </li>
+                    <ul class="pages-drop-down-menu collapse" id="collapsed-pages">
+                        <li><a href="shop-details.html">Shop Details.</a></li>
+                        <li><a href="shopping-cart.html">Shopping Cart.</a></li>
+                        <li><a href="checkout.html">Check Out.</a></li>
+                        <li><a href="blog-details.html">Blog Details.</a></li>
+                    </ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="follow">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+        </div>
+        <p class="free">Free Shipping for all Order of $99</p>
+    </section>
+    <!-- === responsive menu end here === -->
+
+    <!-- === categories and search bar start here ===  -->
+    <section id="categories-search">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="cat-title" data-bs-toggle="collapse" data-bs-target="#collapse-content" aria-expanded="false" aria-controls="collapse-content">
+                        <i class="fa-solid fa-bars"></i>
+                        <span>All Departments</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <ul class="categories-list collapse show" id="collapse-content">
+                        <li><a href="#">Fresh Meat</a></li>
+                        <li><a href="#">Vegetables</a></li>
+                        <li><a href="#">Fruit & Nut Gifts</a></li>
+                        <li><a href="#">Fresh Berries</a></li>
+                        <li><a href="#">Ocean Foods</a></li>
+                        <li><a href="#">Butter & Eggs</a></li>
+                        <li><a href="#">Fastfood</a></li>
+                        <li><a href="#">Fresh Onion</a></li>
+                        <li><a href="#">Papayaya & Crisps</a></li>
+                        <li><a href="#">Oatemale</a></li>
+                        <li><a href="#">Fresh Bananas</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-8">
+                    <form action="post" class="search-section">
+                        <select name="categories" id="categories">
+                            <option value="0">All categories</option>
+                            <option value="1">categories - 01</option>
+                            <option value="2">categories - 02</option>
+                            <option value="3">categories - 03</option>
+                        </select>
+                        <input type="text" name="search" id="search" placeholder="What do you want?" >
+                        <button class="search-btn">Search</button>
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="support-24">
+                        <div class="phone-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="phone-number">
+                            <h5 class="contact-number"><a href="telto:+65 11.188.888">+65 11.188.888</a></h5>
+                            <span>support 24/7 365 days</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === categories and search bar end here ===  -->
+
+    <!-- === shop page titile start here === -->
+    <section id="page-header" class="page-header">
+        <div class="container">
+            <div class="page-header-text">
+                <h3 class="page-title">Check Out</h3>
+                <p class="page-track">
+                    <a href="index.html">Home</a> <span>&#8211;</span> <a href="shop.html">check-out</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- === shop page titile end here === -->
+
+    <!-- === check out start here === -->
+    <section id="check-out">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="cupon-link">
+                        <i class="fa-solid fa-hashtag"></i>
+                        Have a cupon?
+                        <a href="shopping-cart.html">Click Here</a>
+                        to enter you cupon.
+                    </p>
+                </div>
+            </div>
+            <div class="check-out-form">
+                <h3 class="form-heading">
+                    Billing Details.
+                </h3>
+                <form action="#" method="post">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-12">
+                            <ul class="nav nav-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link active" id="tab-1" data-bs-toggle="tab" data-bs-target="#content-1" type="button" role="tab" aria-controls="content-1" aria-selected="true">Continue with account Information</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="tab-2" data-bs-toggle="tab" data-bs-target="#content-2" type="button" role="tab" aria-controls="content-2" aria-selected="false">Send to another address</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="content-1" role="tabpanel" aria-labelledby="tab-1" tabindex="0">
+                                    <div class="note-for-user">
+                                        All Information has been collected from your account data.
+                                        You may check and change or add anything if you need.
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="check-out-input">
+                                                <h5 class="input-lable">First Name <span>*</span> </h5>
+                                                <input type="text" placeholder="value from database" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="check-out-input">
+                                                <h5 class="input-lable">Last Name <span>*</span> </h5>
+                                                <input type="text" placeholder="value from database" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="check-out-input">
+                                        <h5 class="input-lable">Country <span>*</span> </h5>
+                                        <input type="text" placeholder="value from database" required>
+                                    </div>
+                                    <div class="check-out-input">
+                                        <h5 class="input-lable">Address <span>*</span> </h5>
+                                        <input type="text" placeholder="Street Address" class="address" required>
+                                        <input type="text" placeholder="Apartment, suite, unite ect (optinal)" required>
+                                    </div>
+                                    <div class="check-out-input">
+                                        <h5 class="input-lable">Town / City <span>*</span> </h5>
+                                        <input type="text" placeholder="value from database" required>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="check-out-input">
+                                                <h5 class="input-lable">State <span>*</span> </h5>
+                                                <input type="text" placeholder="value from database" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="check-out-input">
+                                                <h5 class="input-lable">post code <span>*</span> </h5>
+                                                <input type="text" placeholder="value from database" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="check-out-input">
+                                                <h5 class="input-lable">Phone <span>*</span> </h5>
+                                                <div class="phone-box">
+                                                    <select class="select">
+                                                        <option data-display="(+880)" value="1">(+880)</option>
+                                                        <option value="1">(+880)</option>
+                                                        <option value="2">(+880)</option>
+                                                        <option value="3">(+880)</option>
+                                                    </select>
+                                                    <input type="text" placeholder="value from database" class="phone" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="check-out-input">
+                                                <h5 class="input-lable">E-mail <span>*</span> </h5>
+                                                <input type="text" placeholder="example@email.com" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="check-out-check-box">
+                                        <label for="check-box">
+                                            I did read and accept all <a href="#" class="tearms">Tearms</a> and <a href="#" class="terms">Policy</a>
+                                            <input type="checkbox" id="check-box">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="check-out-input">
+                                        <h5 class="input-lable">Password <span>*</span> </h5>
+                                        <input type="password" required>
+                                    </div>
+                                    <div class="check-out-input">
+                                        <h5 class="input-lable">Anything else you may want to addup (Optional)  </h5>
+                                        <textarea type="text" placeholder="Don't shy to tell us."></textarea>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="content-2" role="tabpanel" aria-labelledby="tab-2" tabindex="0">
+                                    <div class="note-for-user">
+                                        please fillup the form carefully, putting wrong information may cause of losing your order
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="check-out-input">
+                                                <h5 class="input-lable">First Name <span>*</span> </h5>
+                                                <input type="text" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="check-out-input">
+                                                <h5 class="input-lable">Last Name <span>*</span> </h5>
+                                                <input type="text" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="check-out-input">
+                                        <h5 class="input-lable">Country <span>*</span> </h5>
+                                        <input type="text" required>
+                                    </div>
+                                    <div class="check-out-input">
+                                        <h5 class="input-lable">Address <span>*</span> </h5>
+                                        <input type="text" placeholder="Street Address" class="address" required>
+                                        <input type="text" placeholder="Apartment, suite, unite ect (optinal)" required>
+                                    </div>
+                                    <div class="check-out-input">
+                                        <h5 class="input-lable">Town / City <span>*</span> </h5>
+                                        <input type="text" required>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="check-out-input">
+                                                <h5 class="input-lable">State <span>*</span> </h5>
+                                                <input type="text" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="check-out-input">
+                                                <h5 class="input-lable">post code <span>*</span> </h5>
+                                                <input type="text" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="check-out-input">
+                                                <h5 class="input-lable">Phone <span>*</span> </h5>
+                                                <div class="phone-box">
+                                                    <select class="select">
+                                                        <option data-display="(+880)" value="1">(+880)</option>
+                                                        <option value="1">(+880)</option>
+                                                        <option value="2">(+880)</option>
+                                                        <option value="3">(+880)</option>
+                                                    </select>
+                                                    <input type="text" class="phone" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="check-out-input">
+                                                <h5 class="input-lable">E-mail <span>*</span> </h5>
+                                                <input type="text" placeholder="example@email.com" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="check-out-check-box">
+                                        <label for="check-box">
+                                            I did read and accept all <a href="#" class="tearms">Tearms</a> and <a href="#" class="terms">Policy</a>
+                                            <input type="checkbox" id="check-box">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="check-out-input">
+                                        <h5 class="input-lable">Password <span>*</span> </h5>
+                                        <input type="password" required>
+                                    </div>
+                                    <div class="check-out-input">
+                                        <h5 class="input-lable">Anything else you may want to addup (Optional)  </h5>
+                                        <textarea type="text" placeholder="Don't shy to tell us."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="confirm-order">
+                                <h4>Your order details</h4>
+                                <table>
+                                    <tr>
+                                        <th>Products</th>
+                                        <th>Total</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="products-name">Vegetable’s Package</td>
+                                        <td class="rate">$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="products-name">Fresh vegetables</td>
+                                        <td class="rate">$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="products-name">Organic Bananas</td>
+                                        <td class="rate">$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="products-name total">Subtotal</td>
+                                        <td class="total-rate rate">$300</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="products-name total">Discount</td>
+                                        <td class="total-rate rate">-$10</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="products-name total">Have to pay</td>
+                                        <td class="total-rate rate">$290</td>
+                                    </tr>
+                                </table>
+                                <div class="payment" data-bs-toggle="collapse" data-bs-target="#collapse-content-1" aria-expanded="false" aria-controls="collapse-content-1">
+                                    payment
+                                </div>
+                                <ul class="pay-types collapse show" id="collapse-content-1">
+                                    <li class="active"> Cash one Delivery </li>
+                                    <li class="online" data-bs-toggle="collapse" data-bs-target="#collapse-content-2" aria-expanded="false" aria-controls="collapse-content-2">Online payment <i class="fa-solid fa-chevron-down"></i></li>
+                                    <ul class="pay-method collapse" id="collapse-content-2">
+                                        <li>Crypto Currency</li>
+                                        <li>Paypal</li>
+                                        <li>master/visa card</li>
+                                    </ul>
+                                </ul>
+                                <a href="#" class="order-btn">Place order</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- === check out end here === -->
+
+
+    <!-- === contact start here === -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="footer-logo">
+                        <img src="images/top_logo.png" alt="logo_not_found">
+                    </div>
+                    <ul class="address">
+                        <li>Address: 60-49 Road 11378 New York</li>
+                        <li>Phone: +65 11.188.888</li>
+                        <li>Email: hello@colorlib.com</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 offset-lg-1">
+                    <h3 class="contact-title">
+                        Useful Links
+                    </h3>
+                    <ul class="contact-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About Our Shope</a></li>
+                        <li><a href="#">Secure Shopping</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Privecy Policy</a></li>
+                        <li><a href="#">Our Sitemape</a></li>
+                    </ul>
+                    <ul class="contact-links">
+                        <li><a href="#">Who we are?</a></li>
+                        <li><a href="#">Our services</a></li>
+                        <li><a href="#">projects</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="#">inovation</a></li>
+                        <li><a href="#">testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 Subscribe-part">
+                    <h3 class="contact-title">
+                        Join our newsletter now
+                    </h3>
+                    <p class="mail-update">
+                        Get in touch by E-mail to keep yourself updates about our latest shop and special offers.
+                    </p>
+                    <div class="subscribe-group">
+                        <form action="post">
+                            <input type="text" placeholder="Enter Your Mail" class="subs-btn">
+                            <button class="sub-btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer">
+                    <div class="copy-right">
+                        Copyright ©2022 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by Colorlib
+                    </div>
+                    <div class="payment">
+                        <div class="payment-methods">
+                            <img src="images/skrill.png" alt="img_note_found">
+                            <img src="images/btc.png" alt="img_note_found">
+                            <img src="images/USA-e.png" alt="img_note_found">
+                            <img src="images/paypal.png" alt="img_note_found">
+                            <img src="images/master-card.png" alt="img_note_found">
+                            <img src="images/visa.png" alt="img_note_found">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === contact end here === -->
+
+    <!-- === top to up animation btn === -->
+    <div id="bottom-to-top" class="hide-btn">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <!-- === top to up animation btn === -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jQuery.UI.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
