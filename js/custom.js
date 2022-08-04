@@ -34,11 +34,18 @@ $(document).ready(function () {
         }
     });
 
+    
+    // side menu and btn relation
     $('.navbar-toggler').click(function(){
         $('#side-menu').toggleClass('show');
         $('.menu-overlay').toggleClass('active');
-
     });
+
+    $('.side-menu-close-btn').click(function(){
+        $('#side-menu').removeClass('show');
+        $('.menu-overlay').removeClass('active');
+    });
+
 
     // fixed menu
     $(window).scroll(function(){
@@ -74,17 +81,33 @@ $(document).ready(function () {
                     slidesToScroll: 4
                 }
             },
+
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2.5,
+                    slidesToScroll: 2
+                }
+            },
+
             {
                 breakpoint: 576,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 2.3,
                     slidesToScroll: 2
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1.5,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 375,
+                settings: {
+                    slidesToShow: 1,
                     slidesToScroll: 2
                 }
             }

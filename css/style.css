@@ -52,7 +52,7 @@
             border: 1px solid #b2b2b2;
             position: fixed;
             top: 15px;
-            right: 30px;
+            right: 156px;
             z-index: 99;
             animation: navbar-toggler-smoother 1s ease-in;
             transition: all 0.3s linear;
@@ -65,7 +65,7 @@
             }
 
             to {
-                right: 30px;
+                right: 156px;
                 opacity: 1;
             }
         }
@@ -117,6 +117,28 @@
 
         #side-menu .side-menu-logo {
             margin-bottom: 50px;
+        }
+
+        #side-menu .side-menu-close-btn {
+            position: absolute;
+            top: 31px;
+            left: 277px;
+            border: 1px solid #b2b2b2;
+            height: 50px;
+            width: 50px;
+            background: #7fad39;
+            border-radius: 5px;
+        }
+
+        #side-menu .side-menu-close-btn span {
+            display: inline-block;
+            vertical-align: middle;
+            background-size: 100%;
+            padding: 2px 15px;
+            font-size: 30px;
+            text-align: center;
+            color: #ffffff;
+
         }
 
         #side-menu .side-menu-cart {
@@ -378,7 +400,7 @@
     .f-p-items .featured-img-overlay {
         position: absolute;
         bottom: -50px;
-        left: 30%;
+        left: 20%;
         text-align: center;
         transition: all 0.3s linear;
     }
@@ -1170,7 +1192,8 @@
     #banner .banner-slider-part .banner-slider .slider-items .img-overlay {
         position: absolute;
         bottom: 13px;
-        left: 28%;
+        left: 50%;
+        transform: translateX(-50%);
         font-size: 18px;
         color: #1c1c1c;
         font-weight: 700;
@@ -1220,7 +1243,6 @@
         color: #1c1c1c;
         position: relative;
         cursor: pointer;
-        transition: all 0.3s ease-in-out;
     }
 
     #featured ul li:last-child {
