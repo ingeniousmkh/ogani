@@ -317,6 +317,10 @@
         right: 20px;
     }
 
+    #categories-search .search-section {
+        font-size: 14px;
+    }
+
     #categories-search .search-section #categories {
         padding-left: 8px;
         width: 32%;
@@ -328,7 +332,7 @@
     }
 
     #categories-search .search-section .search-btn {
-        padding: 12px 30px;
+        padding: 12px 23px;
     }
 
     #categories-search .search-section::after {
@@ -349,19 +353,27 @@
         right: 0px;
     }
 
+    #featured ul li {
+        margin-right: 11px;
+    }
+
     #shop-details-page .items-details-tab ul::before,
     #shop-details-page .items-details-tab ul::after {
         width: 18%;
     }
 
+
     #shopping-cart .apply-cupons button {
         margin-top: 20px;
     }
 
-    
+    #contact .subscribe-group .sub-btn {
+        font-size: 13px;
+        padding: 13px 10px 11px 10px;
+    }
 
     #contact .subscribe-group input {
-        width: 76.5%;
+        width: 75.5%;
     }
 
     .section-title {
@@ -390,13 +402,12 @@
     }
 
     #categories-search .search-section::after {
-        top: 18px;
-        left: 116px;
+        top: 15px;
+        left: 120px;
     }
 
     #featured ul li {
         font-size: 16px;
-        margin-right: 10px;
     }
 
     #contact .subscribe-group .sub-btn {
